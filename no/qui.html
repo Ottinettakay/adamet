@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Example</title>
+    <style>
+        .dynamic-color {
+            width: 100px;
+            height: 100px;
+            background-color: grey; /* Default color */
+        }
+    </style>
+</head>
+<body>
+    <div class="dynamic-color" id="colorBox"></div>
+    <script>
+        const DESIRED_COLOR = "#1a5fb4";
+        const colorBox = document.getElementById('colorBox');
+        colorBox.style.backgroundColor = DESIRED_COLOR;
+    </script>
+</body>
+</html>
